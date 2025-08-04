@@ -1,0 +1,55 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            t2j157666o00jabw2n4fe3jikwvftf0q:
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "511089569792"
+                        used: "217367257088"
+                email: aswinkumar.2022@vitstudent.ac.in
+                executable: C:\Users\aswin\miniconda3\envs\ayna\python.exe
+                host: Purgty
+                memory:
+                    total: "14806552576"
+                os: Windows-10-10.0.26100-SP0
+                program: c:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\train.py
+                python: CPython 3.11.13
+                root: C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model
+                startedAt: "2025-08-04T19:54:24.609748Z"
+                writerId: t2j157666o00jabw2n4fe3jikwvftf0q
+        m: []
+        python_version: 3.11.13
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 1
+                - 2
+                - 16
+            "4": 3.11.13
+            "5": 0.21.0
+            "8":
+                - 3
+            "12": 0.21.0
+            "13": windows-amd64
+batch_size:
+    value: 4
+data_dir:
+    value: C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\dataset
+embed_dim:
+    value: 512
+epochs:
+    value: 50
+img_size:
+    value: 64
+learning_rate:
+    value: 0.001

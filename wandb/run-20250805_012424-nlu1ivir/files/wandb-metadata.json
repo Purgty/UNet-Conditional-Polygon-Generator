@@ -1,0 +1,24 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.11.13",
+  "startedAt": "2025-08-04T19:54:24.609748Z",
+  "program": "c:\\Users\\aswin\\OneDrive\\Desktop\\Sandbox\\Ayna UNET Model\\train.py",
+  "codePath": "train.py",
+  "codePathLocal": "train.py",
+  "email": "aswinkumar.2022@vitstudent.ac.in",
+  "root": "C:\\Users\\aswin\\OneDrive\\Desktop\\Sandbox\\Ayna UNET Model",
+  "host": "Purgty",
+  "executable": "C:\\Users\\aswin\\miniconda3\\envs\\ayna\\python.exe",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "511089569792",
+      "used": "217367257088"
+    }
+  },
+  "memory": {
+    "total": "14806552576"
+  },
+  "writerId": "t2j157666o00jabw2n4fe3jikwvftf0q"
+}

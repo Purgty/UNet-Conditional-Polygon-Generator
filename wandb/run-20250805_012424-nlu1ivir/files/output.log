@@ -1,0 +1,112 @@
+c:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\train.py:37: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler()
+C:\Users\aswin\miniconda3\envs\ayna\Lib\site-packages\torch\amp\grad_scaler.py:136: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn(
+c:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\train.py:52: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+C:\Users\aswin\miniconda3\envs\ayna\Lib\site-packages\torch\amp\autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+c:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\train.py:73: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast():
+[34m[1mwandb[0m: [33mWARNING[0m Data passed to `wandb.Image` should consist of values in the range [0, 255], image data will be normalized to this range, but behavior will be removed in a future version of wandb.
+Epoch 1/50, Train Loss: 0.6936, Val Loss: 0.7262
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 2/50, Train Loss: 0.3151, Val Loss: 0.2848
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 3/50, Train Loss: 0.1518, Val Loss: 0.1336
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 4/50, Train Loss: 0.0757, Val Loss: 0.0612
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 5/50, Train Loss: 0.0467, Val Loss: 0.0482
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 6/50, Train Loss: 0.0352, Val Loss: 0.0239
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 7/50, Train Loss: 0.0289, Val Loss: 0.0356
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 8/50, Train Loss: 0.0258, Val Loss: 0.0170
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 9/50, Train Loss: 0.0206, Val Loss: 0.0127
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 10/50, Train Loss: 0.0181, Val Loss: 0.0128
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 11/50, Train Loss: 0.0195, Val Loss: 0.0160
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 12/50, Train Loss: 0.0196, Val Loss: 0.0111
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 13/50, Train Loss: 0.0197, Val Loss: 0.0188
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 14/50, Train Loss: 0.0179, Val Loss: 0.0098
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 15/50, Train Loss: 0.0132, Val Loss: 0.0076
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 16/50, Train Loss: 0.0112, Val Loss: 0.0092
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 17/50, Train Loss: 0.0117, Val Loss: 0.0097
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 18/50, Train Loss: 0.0124, Val Loss: 0.0081
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 19/50, Train Loss: 0.0138, Val Loss: 0.0170
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 20/50, Train Loss: 0.0181, Val Loss: 0.0196
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 21/50, Train Loss: 0.0197, Val Loss: 0.0156
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 22/50, Train Loss: 0.0178, Val Loss: 0.0249
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 23/50, Train Loss: 0.0119, Val Loss: 0.0289
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 24/50, Train Loss: 0.0093, Val Loss: 0.0069
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 25/50, Train Loss: 0.0068, Val Loss: 0.0065
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 26/50, Train Loss: 0.0093, Val Loss: 0.0338
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 27/50, Train Loss: 0.0077, Val Loss: 0.0116
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 28/50, Train Loss: 0.0072, Val Loss: 0.0142
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 29/50, Train Loss: 0.0151, Val Loss: 0.0248
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 30/50, Train Loss: 0.0179, Val Loss: 0.0311
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 31/50, Train Loss: 0.0219, Val Loss: 0.0332
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 32/50, Train Loss: 0.0221, Val Loss: 0.0576
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 33/50, Train Loss: 0.0132, Val Loss: 0.0283
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 34/50, Train Loss: 0.0127, Val Loss: 0.0052
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 35/50, Train Loss: 0.0072, Val Loss: 0.0038
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 36/50, Train Loss: 0.0055, Val Loss: 0.0061
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 37/50, Train Loss: 0.0062, Val Loss: 0.0054
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 38/50, Train Loss: 0.0047, Val Loss: 0.0069
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 39/50, Train Loss: 0.0046, Val Loss: 0.0061
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 40/50, Train Loss: 0.0039, Val Loss: 0.0052
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 41/50, Train Loss: 0.0040, Val Loss: 0.0068
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 42/50, Train Loss: 0.0033, Val Loss: 0.0048
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 43/50, Train Loss: 0.0034, Val Loss: 0.0081
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 44/50, Train Loss: 0.0032, Val Loss: 0.0043
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 45/50, Train Loss: 0.0037, Val Loss: 0.0049
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 46/50, Train Loss: 0.0052, Val Loss: 0.0049
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 47/50, Train Loss: 0.0037, Val Loss: 0.0043
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 48/50, Train Loss: 0.0055, Val Loss: 0.0218
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 49/50, Train Loss: 0.0051, Val Loss: 0.0089
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Epoch 50/50, Train Loss: 0.0047, Val Loss: 0.0088
+Saving model to C:\Users\aswin\OneDrive\Desktop\Sandbox\Ayna UNET Model\wandb\models\conditional_unet_50mod.pth
+Model saved successfully.
