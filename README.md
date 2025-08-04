@@ -75,9 +75,3 @@ For multiple images, point `input_path` to a folder.
 
 - **State Dict Mismatch**: Ensure `embed_dim` and `img_size` match between training and inference configs.
 - **CUDA OOM**: Reduce `batch_size` or `img_size`.
-
-## 🙏 Acknowledgements
-
-- **PyTorch** for modeling
-- **WandB** for experiment tracking
-- **Pillow, NumPy, Matplotlib** for I/O and visualizations
