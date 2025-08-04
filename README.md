@@ -46,7 +46,7 @@ dataset/
 
 Each `data.json` contains mappings of:
 ```json
-{ "input_polygon": "img1.png", "colour": "red", "output_image": "img1_colored.png" }
+{ "input_polygon": "octagon.png", "colour": "red", "output_image": "red_octagon.png" }
 ```
 
 ## 🏋️ Training
@@ -69,8 +69,7 @@ Set `model_path`, `input_image_path`, and `colour` in `inference.py`, then run:
 python inference.py
 ```
 
-For multiple images, point `input_path` to a folder.
-
+The final model used for inference is conditional_unet_50mod.pth in this repo.
 ## 🛠 Troubleshooting
 
 - **State Dict Mismatch**: Ensure `embed_dim` and `img_size` match between training and inference configs.
